@@ -84,4 +84,15 @@ n("#vertical-menu-btn").on("click", function (t) {
     });
 
     
+$(".show-more").click(function () {
+    $(".text").toggleClass("show-more-height");
+});
+
+$('.viewmore').click(function() {
+$(this).parent().parent().next().slideToggle();
+
+});
+
+
+    
 }(jQuery);
